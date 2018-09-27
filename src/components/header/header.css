@@ -23,5 +23,6 @@
   }
   .header .search-wrapper input::placeholder{
 color: #888;
-font-size: 2em;
+font-size: 1.4em;
+font-family: "Open Sans"
   }

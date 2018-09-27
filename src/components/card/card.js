@@ -18,7 +18,7 @@ const Card = () => (
       </div>
       <div className="card-footer">
         <a href="#">
-          Check <span role="img"> ✔️ </span>
+          Check <span role="img"> ↘️</span>
         </a>
       </div>
     </div>

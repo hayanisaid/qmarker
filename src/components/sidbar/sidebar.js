@@ -4,7 +4,7 @@ import "./sidebar.css";
 const SideBar = () => (
   <div className="sidebar">
     <div className="sidebar-wrapper">
-      <ul className="itesm">
+      <ul className="items">
         <li className="item">
           <a href="#">JavaScript</a>
         </li>

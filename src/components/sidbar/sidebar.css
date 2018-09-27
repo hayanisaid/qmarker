@@ -1,0 +1,30 @@
+.sidebar{
+    background: #fff;
+    height: 20em;
+  padding: 1em;
+    overflow: hidden;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.items{
+    display: grid;
+    padding: 0;
+    width: 17em;
+    grid-template-columns: repeat(4,auto);
+    justify-items: stretch;
+    grid-gap: 10px;
+    justify-content: stretch;
+    grid-template-rows: auto;
+    /* overflow: hidden; */
+
+}
+.items .item{
+  background:#f7f7f7;
+  padding: 10px;
+  list-style: none;
+  border-radius: 4px
+}
+.items .item a{
+    text-decoration: none;
+    color:#888
+}
