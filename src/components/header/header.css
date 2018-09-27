@@ -1,0 +1,27 @@
+.header{
+    display: flex;
+    align-items: center;
+    padding: 3em;
+    justify-content: center;
+  }
+  
+  .header .search-wrapper
+  {
+ 
+  }
+  .header .search-wrapper input{
+    height: 2em;
+    width: 33em;
+    border-radius: 31px;
+    text-align: center;
+    border: 1px solid #f8b500;
+    /* -webkit-box-shadow: 0 0 3px #f7b32d;
+    box-shadow: 0 0 3px #f7b32d; */
+    /* font-size: 2em; */
+    padding: 1em;
+    outline: none;
+  }
+  .header .search-wrapper input::placeholder{
+color: #888;
+font-size: 2em;
+  }

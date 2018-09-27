@@ -1,0 +1,38 @@
+.card{
+    margin: 1em;
+    overflow: hidden;
+    border-radius: 4px;
+    box-shadow: 0 0 4px #ccc
+}
+.card-body{
+    padding: 10px;
+background: #fff;
+}
+.card-header img{
+    width: 100%;
+}
+
+.card-body .card-text h1{
+  
+    font-size: 1em;
+    color: #f8b500;
+    font-family: "Roboto"
+}
+.card-body .card-text p{
+    color:#666;
+    font-family: 'open Sans';
+    font-size: 12px
+}
+.card-footer{
+    padding: 5px;
+    align-items: center;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+}
+.card-footer a{
+    text-decoration: none;
+    font-family:"Open Sans"
+}
